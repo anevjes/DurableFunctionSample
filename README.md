@@ -2,7 +2,7 @@
 
 We are proposing the use of Azure Durable Functions which will provide you with a mechanism to better scale long running operations such as image analysis as well as provide for more resiliance through the orcherstrations and activities which behind the scenes are built on top of Azure Storage queues.
 
-![Highlvl Arch](documentation/images/highlvl-arch.jpg)
+![Highlvl Arch](Arian.Imaging.Sample/Arian.Imaging.Sample/documentation/images/highlvl-arch.jpg)
 
 More information on [Azure Durable Functions and various patterns.](https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview?tabs=csharp)
 
@@ -48,9 +48,9 @@ To locally debug the durable function; depending on your IDE you will need to lo
 Additionally you will need to provide environment variables locally to your dev environment. One way to perform this is to tweak the local.settings.json file which needs to be stored at function root as per below:
 
 
-![Local.Settings.2](documentation/images/local.settings.2.png)
+![Local.Settings.2](Arian.Imaging.Sample/Arian.Imaging.Sample/documentation/images/local.settings.2.png)
 
-![Local.Settings](documentation/images/local.settings.png)
+![Local.Settings](Arian.Imaging.Sample/Arian.Imaging.Sample/documentation/images/local.settings.png)
 
 # References
 
